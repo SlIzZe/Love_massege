@@ -1,155 +1,23 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>❤️</title>
-
-<style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
-
-body{
-    min-height:100vh;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    overflow:hidden;
-    
-
-    background:
-    radial-gradient(circle at top left,#ff6ba6 0%,transparent 40%),
-    radial-gradient(circle at bottom right,#8a6cff 0%,transparent 40%),
-    linear-gradient(135deg,#13131a,#1d1d2b);
-
-    font-family:system-ui,sans-serif;
-}
-
-.card{
-    width:min(90%,420px);
-    padding:35px;
-
-    border-radius:30px;
-
-    background:rgba(255,255,255,.08);
-    backdrop-filter:blur(20px);
-
-    border:1px solid rgba(255,255,255,.15);
-
-    box-shadow:
-    0 20px 50px rgba(0,0,0,.35),
-    inset 0 0 20px rgba(255,255,255,.05);
-
-    text-align:center;
-
-    animation:show .8s ease;
-}
-
-.heart{
-    font-size:70px;
-    animation:pulse 2s infinite;
-}
-
-h1{
-    margin-top:15px;
-    color:white;
-    font-size:32px;
-}
-
-.text{
-    margin-top:18px;
-    color:rgba(255,255,255,.85);
-    line-height:1.7;
-    font-size:18px;
-}
-
-.btn{
-    margin-top:28px;
-
-    border:none;
-    cursor:pointer;
-
-    padding:14px 30px;
-    border-radius:999px;
-
-    font-size:16px;
-    color:white;
-
-    background:linear-gradient(
-        135deg,
-        #ff5f9e,
-        #a66cff
-    );
-
-    box-shadow:
-    0 10px 25px rgba(255,95,158,.35);
-
-    transition:.25s;
-}
-
-.btn:hover{
-    transform:translateY(-2px);
-}
-
-.float{
-    position:absolute;
-    font-size:25px;
-    animation:fly linear infinite;
-    opacity:.5;
-}
-
-@keyframes pulse{
-    0%,100%{transform:scale(1);}
-    50%{transform:scale(1.15);}
-}
-
-@keyframes show{
-    from{
-        opacity:0;
-        transform:translateY(25px) scale(.95);
-    }
-    to{
-        opacity:1;
-        transform:none;
-    }
-}
-
-@keyframes fly{
-    from{
-        transform:translateY(100vh);
-    }
-    to{
-        transform:translateY(-120px);
-    }
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
-
 <body>
+    <div class="card">
+        <div class="heart">❤️</div>
 
-<div class="float" style="left:10%;animation-duration:9s;">❤️</div>
-<div class="float" style="left:30%;animation-duration:12s;">💕</div>
-<div class="float" style="left:55%;animation-duration:10s;">💖</div>
-<div class="float" style="left:80%;animation-duration:14s;">💞</div>
+            <h1>Любимой Олечке</h1>
 
-<div class="card">
-    <div class="heart">❤️</div>
-
-    <h1>Для тебя</h1>
-
-    <div class="text">
-        Просто хотел напомнить, что ты очень важна для меня.
-        Надеюсь, что у тебя всё будет хорошо, а если вдруг станет грустно —
-        знай, что есть человек, который думает о тебе и искренне переживает ❤️
-    </div>
-
-    <button class="btn" onclick="alert('Люблю тебя ❤️')">
-        Нажми сюда ✨
-    </button>
-</div>
+            <div class="text">
+                Зая ты моя любимая, я хочу сказать: Я очень тебя люблю🥺🥺🥺. Люблю твои сообщения, твой голос, твою улыбку, и то что ты вообще есть. Ты стала для меня очень дорогим человеком, о котором хочется думать, переживать и заботиться.
+                И, наверное, нет ни одного дня, когда я бы не думал о тебе. Я скучаю по тебе даже тогда, когда мы совсем недавно общались. Мне постоянно хочется узнать, как ты, как прошёл твой день, всё ли у тебя хорошо. Ты стала частью моих мыслей, моего настроения и моих дней.🥺🥺🥺
+                И как бы ни прошёл мой день, мысли о тебе всегда делают его лучше. ❤️
+                И знаешь, что самое удивительное? С каждым днём мои чувства к тебе становятся только сильнее. Я скучаю,жду твоих сообщений и радуюсь каждому моменту, проведённому рядом с тобой. Просто спасибо тебе за это. <br> Я очень сильно тебя люблю, зайка ты моя любимая. ❤️
+            </div>
 
 </body>
 </html>
